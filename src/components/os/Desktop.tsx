@@ -58,7 +58,7 @@ const APPLICATIONS: {
         key: 'lemon',
         name: 'Lemon',
         shortcutIcon: 'lemonIcon',
-        component: Lemon,
+        component: lemon,
     }
 };
 
