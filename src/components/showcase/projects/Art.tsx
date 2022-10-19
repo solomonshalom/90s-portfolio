@@ -1,7 +1,7 @@
 import React from 'react';
 
-import girlRun from '../../../assets/pictures/projects/art/girl-run.gif';
-import gsts from '../../../assets/pictures/projects/art/gsts.png';
+import Bobby from '../../../assets/pictures/projects/art/Bobby.jpg';
+import Jacob from '../../../assets/pictures/projects/art/Jacob.jpg';
 
 export interface ArtProjectsProps {}
 
@@ -25,46 +25,41 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                 </p>
             </div>
             <div className="text-block">
-                <h2>Pixel Art and Animation</h2>
+                <h2>Photorealism and AI Art</h2>
                 <br />
                 <p>
-                    In high school, I started learning how to draw and animate
-                    pixel art after becoming interested in video game
-                    development. As I worked on making games over the years, I
-                    learned so much about pixel art and fell in love with
-                    animation.
+                    I loved creating characters be it in my imagination or just in paper so one fine day - I decided to
+                    create bobby, A hand-crafted photorealistic art piece. Bobby came to life when I wanted to design a character that made no sense whatsoever.
+                    Think about it - even thought you would see a astronaut chilling with a banana in his hands?
+
+                    Well, it was portrayed in that manner to showcase that sometimes God put's us through some situations that to us might not make sense but there's always a reason. 
+                    This is how, Bobby Life came to being. Oh, it's also an <a href="https://bit.ly/bobbylife">NFT</a> ;)
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <img src={girlRun} alt="" />
+                    <img src={Bobby} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 1:</b> Eight Frame Run cycle animated by
-                            myself, original sprite by kevink
+                            <b>Figure 1:</b> Bobby Life
                         </sub>
                     </p>
                 </div>
                 <p>
-                    I really started enjoying the work I was doing, and felt I
-                    was improving a lot. Around 2017, I started to upload videos
-                    of my work flow and animation process to YouTube just for
-                    fun. I was really surprised however when my first video took
-                    off and got a few thousand views! Below are the video links
-                    to the work I uploaded to youtube.
+                    This took around a lot of brainstorming, inspiration and a lot of workflows as it was first crafted in paper then
+                    transformed using a editor, later crafted using DALL-E
                 </p>
                 <br />
-                <h3>Video Links:</h3>
+                <h3>Tools:</h3>
                 <br />
                 <ul>
                     <li>
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://www.youtube.com/watch?v=pDtUX3ZVHJ0"
+                            href="https://openai.com/dall-e-2/"
                         >
                             <p>
-                                <b>VIDEO</b> - Pixel Art Walk Cycle Time-lapse
-                                and Tutorial
+                                <b>DALL-E</b> - Image generation using AI systems
                             </p>
                         </a>
                     </li>
@@ -72,11 +67,10 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://www.youtube.com/watch?v=xXEDKQ3wSfM"
+                            href="https://pixlr.com"
                         >
                             <p>
-                                <b>VIDEO</b> - Pixel Art "Bag Up" Animation
-                                Time-lapse
+                                <b>Pixlr</b> - Web-based photoeditor // Great photoshop alternative
                             </p>
                         </a>
                     </li>
@@ -84,32 +78,28 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://www.youtube.com/watch?v=leZzb-Y0SKQ"
+                            href="#"
                         >
                             <p>
-                                <b>VIDEO</b> - Pixel Art Bipedal Creature Run
-                                Cycle Time-lapse
+                                <b>Imagination</b> - Pretty hard to explain :D
                             </p>
                         </a>
                     </li>
                 </ul>
                 <br />
                 <div className="captioned-image">
-                    <img src={gsts} alt="" />
+                    <img src={Jacob} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 2:</b> More pixel art: Enemy Lineup from a
-                            game I worked on called Guntattchment Saga
+                            <b>Figure 2:</b> Jacob Lino
                         </sub>
                     </p>
                 </div>
                 <br />
                 <p>
-                    This page is currently a work in progress. I've recently
-                    found myself wanting to make more pixel art recently and I
-                    have some project plans and ideas in the works. Expect
-                    updates to this page as I dive back into the world of pixel
-                    art!
+                is the second of my adventures when it comes to NFT.
+                I wanted to create a man of authority, a mafia leader with a Russian outlook, thus bringing Jacob Lino to life. This is the creation of a myth, a man may be a legend
+
                 </p>
                 {/* <h3> Screen record time-lapses and make gifs</h3> */}
             </div>
