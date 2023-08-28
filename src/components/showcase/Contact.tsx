@@ -3,7 +3,7 @@ import colors from '../../constants/colors';
 import twitterIcon from '../../assets/pictures/contact-twitter.png';
 import ghIcon from '../../assets/pictures/contact-gh.png';
 import inIcon from '../../assets/pictures/contact-in.png';
-import ResumeDownload from '../ResumeDownload';
+import ResumeDownload from '../../src/components/showcase/ResumeDownload';;
 
 export interface ContactProps {}
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import ResumeDownload from '../ResumeDownload';
+import ResumeDownload from '../../src/components/showcase/ResumeDownload';;
 
 export interface ExperienceProps {}
 
