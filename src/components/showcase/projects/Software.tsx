@@ -7,6 +7,7 @@ import espresso from '../../../assets/pictures/projects/software/espresso.png';
 import skynet from '../../../assets/pictures/projects/software/skynet.png';
 import ResumeDownload from '../ResumeDownload';
 import VideoAsset from '../../general/VideoAsset';
+import Image from 'next/image'
 
 export interface SoftwareProjectsProps {}
 
