@@ -1,6 +1,6 @@
 import React from 'react';
 // @ts-ignore
-import ResumeDownload from '../ResumeDownload';
+import ResumeDownload from './ResumeDownload';
 
 export interface ExperienceProps {}
 
