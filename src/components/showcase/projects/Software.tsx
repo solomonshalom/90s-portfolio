@@ -23,25 +23,25 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
             <ResumeDownload />
             <br />
             <div className="text-block">
-                <h2>Eespresso</h2>
+                <h2>The Abyss</h2>
                 <br />
                 <p>
-                    Espresso or Rocket Espresso is an unltra-minimal platform for anyone to write. From fictional stories to documentation - 
-                    espresso is for anyone to write anything, they love!
+                    The Abyss is an unltra-minimal platform for anyone to let their thoughts out. From fictional stories to documentation - 
+                    The Abyss is for anyone to write anything, they love!
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <VideoAsset src={espresso} />
+                    <VideoAsset src="https://ph-files.imgix.net/1d2114e8-ca80-4a21-9f96-44aaf85132a0.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=446&h=220&fit=max&dpr=1" />
                     <p style={styles.caption}>
                         <sub>
-                            <b>Figure 1:</b> Official homepage of Espresso
+                            <b>Figure 1:</b> Official homepage of The Abyss
                         </sub>
                     </p>
                 </div>
                 <p>
                     Now, a quick technical breakdown of the site. The website is
                     created using NextJS // Javascript. The backend is is managed using Firebase, this includes
-                    Auth and Analytics. OH, forgot to mention but am soon moving the backend to supabase to avoid a vendor lock-in.
+                    Auth and for Analytics, I and my team are going w/ Umami.
                 </p>
                 <br />
                 <h3>Website and Tool's Link:</h3>
@@ -50,10 +50,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://rocketespresso.ml"
+                            href="https://theabyss.ink"
                         >
                             <p>
-                                <b>[Official Site]</b> - https://rocketespresso.ml
+                                <b>[Official Site]</b> - https://theabyss.ink
                             </p>
                         </a>
                     </li>
@@ -79,28 +79,38 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                             </p>
                         </a>
                     </li>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://umami.is"
+                        >
+                            <p>
+                                <b>[Umami // Analytics]</b> - https://umami.is
+                            </p>
+                        </a>
+                    </li>
                 </ul>
                 <p>
                     I'm skipping over a lot of details in exchange for brevity,
                     but I do plan on doing a more in depth breakdown for those
                     interested sometime in the future. To get updates with that
-                    project feel free to follow me on twitter{' '}
+                    project feel free to follow me on The Abyss{' '}
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://twitter.com/shalomlijo"
+                        href="https://theabyss.ink/shalomlijo"
                     >
                         @shalomlijo
                     </a>
                 </p>
             </div>
             <div className="text-block">
-                <h2>Takiyomi</h2>
+                <h2>1PM Workout</h2>
                 <br />
                 <p>
-                    Takiyomi is an anime streaming platform for all the weebs out there :D, I initially made it for myself but
-                    made it public after I realized that many who streamed anime struggled finding a good site to watch, a site that was one - free, 
-                    two - fast and three - an amazing UI/UX! So, after weeks of fine-tuning, I launched Takiyomi!
+                    1PM Workout is A hyper-minimal workout app that will guide you through a workout.
+                    No goals, no stress, just steady progress in maintaining a good form and maybe, bald (In a good way :D).
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -108,15 +118,14 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     <div style={styles.caption}>
                         <p>
                             <sub>
-                                <b>Figure 2: </b> Official Homepage of Takiyomi
+                                <b>Figure 2: </b> Official Homepage of 1PM Workout
                             </sub>
                         </p>
                     </div>
                 </div>
                 <p>
-                    Takiyomi, unlike espresso was a lot easier to built and it took few weeks to actually set it up. The frontend is 
-                    built using NextJS while the API is a custom, hand-crafted scraper.
-                    overall.
+                    1PM Workout, unlike The Abyss was a lot easier to built and it took few weeks to actually set it up (Also because The Abyss is literally a social media platform and not a workout app :D). The frontend is 
+                    built using NextJS and does not have any DB involved as it relies on local data. 
                 </p>
                 <br />
                 <h3>Links:</h3>
@@ -128,7 +137,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                             href="https://takiyomi.tk"
                         >
                             <p>
-                                <b>[Website]</b> - https://takiyomi.tk
+                                <b>[Website]</b> - https://1pmworkout.vercel.app
                             </p>
                         </a>
                     </li>
@@ -143,18 +152,29 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                             </p>
                         </a>
                     </li>
+                                        <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://nextjs.org"
+                        >
+                            <p>
+                                <b>[App // Play Store]</b> - https://bit.ly/1pmworkout
+                            </p>
+                        </a>
+                    </li>
                 </ul>
                 <p>
-                    Currently, Takiyomi is still under development with a lot of features still in beta but is 
+                    Currently, 1PM Workout is still under development with a lot of features still in beta but is 
                     expected to launch within few months. 
                 </p>
             </div>
             <div className="text-block">
-                <h2>Github // Twitter</h2>
+                <h2>Github // The Abyss</h2>
                 <br />
                 <p>
                     The above two aren't my only projects and I have built a lot, which if I were to start writing would take years
-                    to complete, loll. So, you can check out all of my OSS projects at my Github and any major // tiny announcements at my twitter :D
+                    to complete, loll. So, you can check out all of my OSS projects at my Github and any major // tiny announcements at The Abyss:D
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -188,10 +208,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://twitter.com/shalomlijo"
+                            href="https://theabyss.ink/solomonlijo"
                         >
                             <p>
-                                <b>[Twitter]</b> - Twitter
+                                <b>[The Abyss]</b> - @solomonlijo
                             </p>
                         </a>
                     </li>
@@ -199,10 +219,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://sky-net.ml"
+                            href="https://www.linkedin.com/company/skynettech7"
                         >
                             <p>
-                                <b>[Website]</b> - https://sky-net.ml
+                                <b>[Website]</b> - linkedin 
                             </p>
                         </a>
                     </li>

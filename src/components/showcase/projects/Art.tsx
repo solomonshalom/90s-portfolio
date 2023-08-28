@@ -33,7 +33,7 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                     Think about it - even thought you would see a astronaut chilling with a banana in his hands?
 
                     Well, it was portrayed in that manner to showcase that sometimes God put's us through some situations that to us might not make sense but there's always a reason. 
-                    This is how, Bobby Life came to being. Oh, it's also an <a href="https://bit.ly/bobbylife">NFT</a> ;)
+                    This is how, Bobby Life came to being.
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -101,7 +101,22 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                 I wanted to create a man of authority, a mafia leader with a Russian outlook, thus bringing Jacob Lino to life. This is the creation of a myth, a man may be a legend
 
                 </p>
-                {/* <h3> Screen record time-lapses and make gifs</h3> */}
+                <h3>To know more about my Art:</h3>
+                <br />
+                <ul>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://instagram/solomonshalom"
+                        >
+                            <p>
+                                <b>Instagram</b> - My Art Portfolio
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                <br />
             </div>
         </div>
     );
