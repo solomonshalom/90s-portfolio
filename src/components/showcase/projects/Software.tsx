@@ -1,13 +1,6 @@
 import React from 'react';
 // @ts-ignore
-import takiyomi from '../../../assets/pictures/projects/software/takiyomi.png';
-// @ts-ignore
-import espresso from '../../../assets/pictures/projects/software/espresso.png';
-// @ts-ignore
-import skynet from '../../../assets/pictures/projects/software/skynet.png';
-import ResumeDownload from '../ResumeDownload';
 import VideoAsset from '../../general/VideoAsset';
-import Image from 'next/image'
 
 export interface SoftwareProjectsProps {}
 
@@ -32,7 +25,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <Image src="https://ph-files.imgix.net/1d2114e8-ca80-4a21-9f96-44aaf85132a0.png" />
+                    <img src="https://ph-files.imgix.net/1d2114e8-ca80-4a21-9f96-44aaf85132a0.png" />
                     <p style={styles.caption}>
                         <sub>
                             <b>Figure 1:</b> Official homepage of The Abyss
@@ -115,7 +108,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <Image src="https://cdn.sanity.io/images/u0v1th4q/production/a946f45a71fc634c36efa204bcbc92c076385fe9-2559x1267.jpg" />
+                    <img src="https://cdn.sanity.io/images/u0v1th4q/production/a946f45a71fc634c36efa204bcbc92c076385fe9-2559x1267.jpg" />
                     <div style={styles.caption}>
                         <p>
                             <sub>
@@ -179,7 +172,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <Image src="https://i.imgur.com/TrXpPqF.png" />
+                    <img src="https://i.imgur.com/TrXpPqF.png" />
                     <p style={styles.caption}>
                         <sub>
                             <b>Figure 3:</b> Skynet Tech :D
