@@ -3,7 +3,7 @@ import me from '../../assets/pictures/workingAtComputer.jpg';
 import meNow from '../../assets/pictures/currentme.jpg';
 import { Link } from 'react-router-dom';
 // @ts-ignore
-import ResumeDownload from '../ResumeDownload';
+import ResumeDownload from './ResumeDownload';
 
 export interface AboutProps {}
 
