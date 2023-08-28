@@ -1,8 +1,6 @@
 import React from 'react';
 // @ts-ignore
-import VideoAsset from '../../general/VideoAsset';
-// @ts-ignore
-import ResumeDownload from '../../src/components/showcase/ResumeDownload';;
+import ResumeDownload from "../../showcase/ResumeDownload";
 
 export interface SoftwareProjectsProps {}
 

@@ -1,5 +1,6 @@
 import React from 'react';
-import ResumeDownload from '../../src/components/showcase/ResumeDownload';;
+// @ts-ignore
+import ResumeDownload from "../../showcase/ResumeDownload";
 
 export interface ExperienceProps {}
 
