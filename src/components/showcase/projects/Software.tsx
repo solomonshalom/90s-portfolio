@@ -26,12 +26,12 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 <h2>The Abyss</h2>
                 <br />
                 <p>
-                    The Abyss is an unltra-minimal platform for anyone to let their thoughts out. From fictional stories to documentation - 
+                    The Abyss is an unltra-minimal platform (& startup) for anyone to let their thoughts out. From fictional stories to documentation - 
                     The Abyss is for anyone to write anything, they love!
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <VideoAsset src="https://ph-files.imgix.net/1d2114e8-ca80-4a21-9f96-44aaf85132a0.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=446&h=220&fit=max&dpr=1" />
+                    <Image src="https://ph-files.imgix.net/1d2114e8-ca80-4a21-9f96-44aaf85132a0.png" />
                     <p style={styles.caption}>
                         <sub>
                             <b>Figure 1:</b> Official homepage of The Abyss
@@ -114,7 +114,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <VideoAsset src={takiyomi} />
+                    <Image src="https://cdn.sanity.io/images/u0v1th4q/production/a946f45a71fc634c36efa204bcbc92c076385fe9-2559x1267.jpg" />
                     <div style={styles.caption}>
                         <p>
                             <sub>
@@ -178,10 +178,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <VideoAsset src={skynet} />
+                    <Image src="https://i.imgur.com/TrXpPqF.png" />
                     <p style={styles.caption}>
                         <sub>
-                            <b>Figure 3:</b> Skynet Tech, Babyy
+                            <b>Figure 3:</b> Skynet Tech :D
                         </sub>
                     </p>
                 </div>
