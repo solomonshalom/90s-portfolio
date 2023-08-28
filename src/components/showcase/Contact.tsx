@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import colors from '../../constants/colors';
-import twitterIcon from '../../assets/pictures/contact-twitter.png';
+import tbIcon from '../../assets/pictures/contact-theabyss.png';
 import ghIcon from '../../assets/pictures/contact-gh.png';
 import inIcon from '../../assets/pictures/contact-in.png';
 // @ts-ignore
@@ -116,7 +116,7 @@ const Contact: React.FC<ContactProps> = (props) => {
                     />
                     <SocialBox
                         icon={inIcon}
-                        link={'#'}
+                        link={'https://linkedin.com/in/solomonlijo'}
                     />
                     <SocialBox
                         icon={twitterIcon}
@@ -134,8 +134,8 @@ const Contact: React.FC<ContactProps> = (props) => {
                 <br />
                 <p>
                     <b>Email: </b>
-                    <a href="mailto:solomonlijo@skiff.com">
-                        solomonlijo@skiff.com
+                    <a href="mailto:solomon@theabyss.ink">
+                        solomon@theabyss.ink
                     </a>
                 </p>
 
