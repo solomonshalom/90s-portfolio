@@ -1,6 +1,7 @@
 import React from 'react';
 // @ts-ignore
-import ResumeDownload from "../../showcase/ResumeDownload";
+import scroll from '../../../assets/pictures/projects/software/scroll.mp4';
+import ResumeDownload from '../ResumeDownload';
 
 export interface SoftwareProjectsProps {}
 

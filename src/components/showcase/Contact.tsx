@@ -4,7 +4,7 @@ import twitterIcon from '../../assets/pictures/contact-twitter.png';
 import ghIcon from '../../assets/pictures/contact-gh.png';
 import inIcon from '../../assets/pictures/contact-in.png';
 // @ts-ignore
-import ResumeDownload from "../../showcase/ResumeDownload";
+import ResumeDownload from '../ResumeDownload';
 
 export interface ContactProps {}
 
